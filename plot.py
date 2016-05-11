@@ -56,6 +56,8 @@ def plot_recursive(paths, prefix):
             for file in files:
                 if file.startswith(prefix):
                     paths_found.append(os.path.join(root, file))
+                elif prefix == "*":
+                    paths.found.append(os.path.join(root, file))
 
     plot_files(paths_found)
 

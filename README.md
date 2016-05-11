@@ -29,7 +29,15 @@ cd ycsb_plotting
 #### Examples
 ```
 ./plot.py example.dat secondfile.dat
+
+# one ouput file with 2 graphs from example.dat and secondfile.dat
 ./plot.py --o example.dat secondfile.dat file.dat
+
+# search for files with mongo prefix
 ./plot.py --r mongo ~/example/direcotry
+
 ./plot.py --o --r mongo ~/example/direcotry
+
+# * use all files
+./plot.py --r * ~/example/directory
 ```
