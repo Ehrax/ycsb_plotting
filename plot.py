@@ -67,7 +67,7 @@ def main():
     parser.add_argument("--o", action="store_true", help="use this if "
                                                          "you want only one "
                                                          "ouput file")
-    parser.add_argument("--r", metavar="[prefix]")
+    parser.add_argument("--r", metavar="'prefix'")
 
     args = parser.parse_args()
 
