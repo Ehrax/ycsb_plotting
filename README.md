@@ -37,4 +37,7 @@ cd ycsb_plotting
 ./plot.py --r mongo ~/example/direcotry
 
 ./plot.py --o --r mongo ~/example/direcotry
+
+# will use all files
+./plot.py --r all ~/example/direcotry
 ```
